@@ -1,6 +1,6 @@
 # ECHOPULSE
 E-Commerce Headphones
-# Crescendo Audio - eCommerce Headphone Website
+# Echo Pulse Audio - eCommerce Headphone Website
 
 This is a fully functional eCommerce platform for purchasing Bluetooth headphones. The project is developed using **HTML**, **CSS**, **JavaScript**, **PHP**, and **MySQL**, and runs locally on **XAMPP**.
 
@@ -41,4 +41,4 @@ This is a fully functional eCommerce platform for purchasing Bluetooth headphone
 2. **Clone the Project:**
    Clone this repository into the XAMPP `htdocs` folder.
    ```bash
-   git clone https://github.com/username/crescendo-audio.git
+   git clone https://github.com/JaiminR7/ECHOPULSE
