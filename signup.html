@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="nav__header">
+      <div class="nav__logo">
+        <a href="landing.html">
+          <img src="assets/logo-dark.png" alt="logo" class="logo-dark" />
+ 
+        </a>
+      </div>
+      <div class="nav__menu__btn" id="menu-btn">
+      </div>
+    </div>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="product.html">Product</a></li>
+      <li><a href="#store">Store</a></li>
+      <li><a href="About_us.html">About Us</a></li>
+      <a href="signup.html"><i class="ri-user-line"></i></a>
+      <a href="cart.html"><i class="ri-shopping-cart-fill"></i></a>
+      <li><button class="btn">Buy Now</button></li>
+    </ul>
+  </nav>
+
+  <!-- Main Container -->
+  <div class="container">
+    <!-- Sign Up Form -->
+    <div class="form-box" id="signup">
+      <h2>Sign Up</h2>
+      <form action="signup.php" method="POST">
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" id="signup-email" name="email" required>
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="signup-password" name="password" required>
+        </div>
+        <div class="input-group">
+          <label for="password">Confirm Password</label>
+          <input type="password" id="signup-password" name="password" required>
+        </div>
+        <button type="submit" class="submit-btn">Sign Up</button>
+        <p class="switch-form">Already have an account? <a href="signin.html">Sign In</a></p>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
